@@ -1,0 +1,9 @@
+---
+applications:
+- name: discoveryclient
+  memory: 128M
+  instances: 0
+  buildpack: dotnet_core_buildpack_offline_latest
+  disk_quota: 512M
+services:
+ - steeltoedemoregistry
